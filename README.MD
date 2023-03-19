@@ -9,3 +9,7 @@ file name should be Dockerfile
 ...
 docker build -t [docker hub url]/[user name]/[image name]:version .
 ...
+
+# # # How to push Docker Image to Docker Hub
+
+docker push [docker hub url]/[user name]/[image name]:version
